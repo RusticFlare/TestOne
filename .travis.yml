@@ -6,6 +6,3 @@ jdk:
 notifications:
   email:
     on_failure: change # default: always
-
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
